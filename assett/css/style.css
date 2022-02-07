@@ -7,12 +7,9 @@
 body{
     width: 80%;
     margin: 0 auto;
+    background-color: white;
 }
 
-header{
-    background-color: purple;
-    height: 100px;
-}
 
 main{
     margin: 30px 0;
@@ -23,11 +20,35 @@ footer{
     height: 60px;
 }
 
-.top-yellow{
-    background-color: yellow;
-    width: 100%;
-    margin-bottom: 30px;
+.logo{
+    height: 80px;
 }
+
+.menu-principale li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu-principale a{
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: grey;
+  font-size: 1.3em;
+}
+
+.banner1{
+    background-image: url("../img/banner.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    margin-bottom:30px
+}
+
 
 .bottom-blu{
     background-color: blue;
