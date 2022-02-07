@@ -46,6 +46,7 @@ main{
     margin-bottom:30px
 }
 
+
 .text-img{
     position: absolute;
     top: 70%;
@@ -54,7 +55,7 @@ main{
 }
 
 .pippo{
-    background-color: white;
+    background-color: blue;
     width: 100%;
 }
 
@@ -65,23 +66,25 @@ main{
 }
 
 .row{
-    
-    width: 100%;
     margin: 30px 0;
 }
 
 .column{
-    background-image: url(../img/img-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 60px;
     float: left;
 }
 
 .c-20{
     width: 20%;
+    float: left;
 }
 
 .c-60{
-    width: calc( 60% - 60px);
-    margin: 0 30px;
+    width: 60% ;
+    float: left;
 }
+
+.b-2{
+    height: 350px;
+}
+
